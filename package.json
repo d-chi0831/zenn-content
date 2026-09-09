@@ -1,0 +1,12 @@
+{
+  "name": "zenn-content",
+  "private": true,
+  "description": "Zenn articles (AI/PC). Drafts are published: false by default.",
+  "scripts": {
+    "preview": "zenn preview",
+    "new:article": "zenn new:article"
+  },
+  "devDependencies": {
+    "zenn-cli": "^0.5.3"
+  }
+}
