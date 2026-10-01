@@ -3,7 +3,7 @@ title: "VRAMに載らないと13.8倍遅い ─ Ollamaを Docker + Node.js か�
 emoji: "🐢"
 type: "tech"
 topics: ["ollama", "llm", "docker", "typescript", "gpu"]
-published: false
+published: true
 ---
 
 ローカルLLMが遅いとき、まずモデルを疑いがちです。しかし RTX 5060 Ti（VRAM 16GB）で自宅の記事生成システムを1年ほど動かしてみた結果、**速度を決めていたのはモデルの賢さではなく「VRAMに収まるかどうか」という 1bit の条件**でした。
